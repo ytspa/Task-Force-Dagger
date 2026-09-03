@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milsim Unit Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">1ST CAVALRY</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#command">Chain of Command</a></li>
+            <li><a href="#portal" class="btn-portal">Portal</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>1ST CAVALRY DIVISION</h1>
+            <p class="tagline">AMERICA'S FIRST TEAM</p>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <span class="stat-num">280+</span>
+                    <span class="stat-label">Active Members</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num">4</span>
+                    <span class="stat-label">Brigades</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num">7</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+            </div>
+            <div class="hero-btns">
+                <a href="#about" class="btn-primary">Learn More</a>
+                <a href="https://discord.gg" target="_blank" class="btn-secondary">Join Discord</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <h2>Who We Are</h2>
+        <p>We are a structured military simulation (milsim) community dedicated to tactical gameplay, operational discipline, and teamwork.</p>
+    </section>
+
+    <!-- Chain of Command Section -->
+    <section id="command" class="content-section alt-bg">
+        <h2>Chain of Command</h2>
+        <div class="command-grid">
+            <div class="card">
+                <h3>Division Commander</h3>
+                <p class="rank">General</p>
+                <p class="name">Username / Gamertag</p>
+            </div>
+            <div class="card">
+                <h3>Executive Officer</h3>
+                <p class="rank">Colonel</p>
+                <p class="name">Username / Gamertag</p>
+            </div>
+            <div class="card">
+                <h3>Command Sergeant Major</h3>
+                <p class="rank">CSM</p>
+                <p class="name">Username / Gamertag</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 1st Cavalry Division Milsim. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
